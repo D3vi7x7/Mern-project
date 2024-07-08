@@ -1,0 +1,13 @@
+.gall{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 12vh auto;
+}
+
+.gall img{
+    width: 300px;
+    border-radius: 10px;
+}

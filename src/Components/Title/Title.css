@@ -1,0 +1,18 @@
+.title{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    padding-top: 10vh;
+    margin: 15px auto;
+}
+
+.title h1{
+    font-size: 50px;
+    color: rgb(53, 53, 247);
+}
+
+.title p{
+    font-size: 35px;
+    font-weight: 400;
+}

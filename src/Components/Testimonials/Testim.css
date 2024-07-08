@@ -1,0 +1,70 @@
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 7vh 0;
+}
+
+.test_btn_nxt,.test_btn_prv{
+    border: none;
+    background-color: rgb(53,53,257);
+    padding: 20px 20px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.test_btn_nxt img{
+    width: 20px;
+}
+
+.test_btn_prv img{
+    width: 20px;
+    rotate: 180deg;
+}
+
+.test_text{
+    overflow: hidden;
+}
+
+.test_text ul{
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    width: 200%;
+    gap: 40px;
+    transform: translateX(0%);
+    transition: all ease 0.3s;
+}
+
+.test_text ul li{
+    list-style: none;
+    width: 23%;
+    background-color: whitesmoke;
+    box-shadow:0 0 20px,rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+li img{
+    width: 70px;
+    border: 4px rgb(53,53,257) solid;
+    border-radius: 50%;
+}
+
+.test_text ul li h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(70, 70, 70);
+    margin: 10px;
+    font-size: 20px;
+}
+
+.test_text ul li p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    color: rgb(70, 70, 70);
+    font-weight: 600;
+    font-size: 15px;
+}
